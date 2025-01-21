@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["dom", "esnext"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "jsx": "react-jsx",
+      "outDir": "./build",    // Asegúrate de que los archivos de salida se generen en una carpeta separada
+      "rootDir": "./src",     // Configura la raíz del directorio fuente
+      "moduleResolution": "node"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "build"]
+  }
+  
